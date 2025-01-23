@@ -2,7 +2,7 @@ import * as winston from "winston"
 import { HTTP_ERROR } from "../../../error_types/http_errors"
 import { getHttpErrorType } from "../../../error_types/utils"
 import * as Hub from "../../../hub"
-import { Error, errorWith } from "../../../hub/action_response"
+import { Error, errorWith } from "../../../hub"
 
 const storage = require("@google-cloud/storage")
 

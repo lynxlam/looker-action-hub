@@ -1,6 +1,6 @@
 import * as chai from "chai"
 
-import type { Error } from "../lib/hub/action_response"
+import type { Error } from "../src/hub"
 import { ActionResponse} from "../src/hub"
 
 describe("ActionResponse validation", () => {
